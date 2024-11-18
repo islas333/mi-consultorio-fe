@@ -1,24 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import HeaderComponent from './Components/Header/Header.component';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <HeaderComponent />
+      <div className="container mx-auto px-4 py-4">
+        <div className="grid grid-cols-1">
+          <div className='items-center justify-center'>
+            <img src={`${process.env.PUBLIC_URL}/logo.png`} alt="Logo" className="mx-auto" />
+          </div>
+          <div>
+            Bienvenido a Mi Consultorio V1.0, esta es una aplicación de escritorio para la gestión de consultorios médicos.
+          </div>
+        </div>
+      </div>
+    </>
   );
 }
 
