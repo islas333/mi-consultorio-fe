@@ -15,7 +15,7 @@ function App() {
           <div className="max-w-sm rounded overflow-hidden shadow-lg">
             <div className="px-6 py-4">
               <div className="font-bold text-xl mb-2 text-center">
-                <FaDonate />
+                {/* <FaDonate /> */}
               </div>
               <div className="font-bold text-xl mb-2 text-center">MIS FINANZAS</div>
               <p className="text-gray-700 text-base">
