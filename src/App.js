@@ -8,7 +8,7 @@ function App() {
       <div className="container mx-auto px-4 py-4">
 
         <div className="grid grid-cols-1 text-center">
-          <h1 className="text-2xl font-bold text-gray-500">PROXIMAMENTE</h1>
+          <h1 className="text-2xl font-bold text-gray-500">PRÓXIMAMENTE</h1>
           <div className="border-b-2 border-gray-300 mr-3"></div>
         </div>
 
@@ -24,7 +24,7 @@ function App() {
               <div className="font-bold text-xl mb-2 text-center mt-4">MIS FINANZAS</div>
               <div className="border-b-2 border-gray-300 mr-3"></div>
               <p className="text-gray-500 text-base text-center mt-4">
-                Modulo de finanzas para llevar un control de los ingresos y egresos del consultorio.
+                Con el módulo de finanzas podrás llevar un control de los ingresos y egresos del consultorio, así como ver tu promedio del día, semana, mes y año. Espera futuras actualizaciones para este módulo.
               </p>
             </div>
           </div>
@@ -39,7 +39,7 @@ function App() {
               <div className="font-bold text-xl mb-2 text-center mt-4">MIS CITAS</div>
               <div className="border-b-2 border-gray-300 mr-3"></div>
               <p className="text-gray-500 text-base text-center mt-4">
-                Modulo de citas, te permite administrar tus citas y programar tu itinerario de mi consultorio.
+                Con el módulo de citas, podrás administrar y controlar las citas de tus pacientes, llevar el control absoluto de quién te visitó, quién te visitará y llevar tu consultorio al siguiente nivel.
               </p>
             </div>
           </div>
@@ -54,7 +54,7 @@ function App() {
               <div className="font-bold text-xl mb-2 text-center mt-4">MI FARMACIA</div>
               <div className="border-b-2 border-gray-300 mr-3"></div>
               <p className="text-gray-500 text-base text-center mt-4">
-                Modulo encargado de llevar el inventario de medicamentos de mi consultorio.
+                Con el módulo de mi farmacia, podrás llevar el control de tu inventario de medicamentos de tu consultorio, ver disponibilidad y precios de tus medicamentos y mucho más.
               </p>
             </div>
           </div>
@@ -66,10 +66,10 @@ function App() {
                   <FaComments className="text-white text-4xl" />
                 </div>
               </div>
-              <div className="font-bold text-xl mb-2 text-center mt-4">MI MENSAJERIA</div>
+              <div className="font-bold text-xl mb-2 text-center mt-4">MI MENSAJERÍA</div>
               <div className="border-b-2 border-gray-300 mr-3"></div>
               <p className="text-gray-500 text-base text-center mt-4 ">
-                Modulo de finanzas para llevar un control de los ingresos y egresos del consultorio.
+                Con este módulo podrás estar en contacto con tus pacientes, enviando notificaciones mediante WhatsApp, correo electrónico o SMS.
               </p>
             </div>
           </div>
@@ -81,10 +81,10 @@ function App() {
                   <FaWifi className="text-white text-4xl" />
                 </div>
               </div>
-              <div className="font-bold text-xl mb-2 text-center mt-4">MIS CONSULTORIO WEB</div>
+              <div className="font-bold text-xl mb-2 text-center mt-4">MI CONSULTORIO WEB</div>
               <div className="border-b-2 border-gray-300 mr-3"></div>
               <p className="text-gray-500 text-base text-center mt-4">
-                MI CONSULTORIO proximamente estara disponible online, espera las noticias en este portal, para futuras actualizaciones.
+                En <b>MI CONSULTORIO MÉDICO</b> siempre queremos innovar, por eso estamos trabajando para que próximamente liberemos una versión en la web. Espera las noticias en este portal para futuras actualizaciones.
               </p>
             </div>
           </div>
@@ -99,7 +99,7 @@ function App() {
               <div className="font-bold text-xl mb-2 text-center mt-4">MIS ESPECIALES</div>
               <div className="border-b-2 border-gray-300 mr-3"></div>
               <p className="text-gray-500 text-base text-center mt-4">
-                Si te interesa un requerimiento especifico de algun desarrollo a la medida, no dude en contactarnos al correo electronico, o con unos de los medicos referenciados.
+                <b>"Solo sé que no sé nada"</b>, y sabemos que no conocemos todas tus necesidades, pero queremos ayudarte. Así que si te interesa un requerimiento específico de algún desarrollo a la medida, no dudes en contactarnos al correo electrónico.
               </p>
             </div>
           </div>
@@ -111,7 +111,7 @@ function App() {
             <img src="/Logo.png" alt="Logo" width="100" />
           </div>
           <div className='col-start-2 col-span-4 text-gray-400 text-center pt-2 text-sm'>
-            Desarrollado por HIR 2024, este es un software de uso personal y personalizado para cada medico, el uso de este software es responsabilidad del usuario.
+            Desarrollado por HIR 2024, este es un software de uso personal y personalizado para cada médico. El uso de este software es responsabilidad del usuario.
           </div>
         </div>
 
